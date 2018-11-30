@@ -154,6 +154,6 @@ for x in range(0, Test1):
             NumForLet = NumForLet + 1
             break
         else:
-            print("HI")
+            print("Please only enter a password that includes numbers and letters")
             break
 print("The computer has concluded after " + str(Test1) +" tries that the password entered is: " + str(Password))
